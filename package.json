@@ -1,0 +1,22 @@
+{
+  "name": "guide-tal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/style.css -o ./dist/styles.css --watch",
+    "start": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}

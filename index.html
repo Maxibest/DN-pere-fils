@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./dist/output.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <nav class="fixed top-0 left-0 w-full border-b border-gray-200 bg-purple-500 text-white shadow-md z-50">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DN Père & Fils</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-white bg-purple-500 rounded md:bg-transparent md:text-purple-200 md:p-0 dark:text-white "
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-200 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-200text-blue-700 md:p-0 dark:text-white md:dark:hover:text-purple-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-200 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">contrat</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-200 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative h-screen flex items-center justify-center -mt-20 z-10">
+    <div class="absolute left-0 top-1/4 w-full transform -rotate-6 flex items-center justify-center">
+      <div class="text-white text-4xl font-bold bg-black py-2 px-6 border-dashed border-4 border-white rounded-lg">
+        <p>DN Père & Fils</p>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <img class="rounded-full w-6/12 -z-10" src="./images/Mouse.png" alt="Image">
+    </div>
+  </section>
+
+  <section class="py-8 bg-slate-100 -mt-44 z-10">
+    <h1 class="text-center text-2xl font-bold mb-6 ">Nous intervenons sur une large gamme de nuisibles</h1>
+    <div class="grid grid-cols-4 gap-4 p-4">
+
+      <div
+        class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
+        <img class="w-full object-cover" src="./images/rat.jpeg" title="Rat" alt="Rats">
+        <p class="text-center mt-2 font-semibold">Rat</p>
+      </div>
+
+      <div
+        class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
+        <img class="w-full object-cover" src="./images/souris.jpeg" title="Souris" alt="Souris">
+        <p class="text-center mt-2 font-semibold">Souris</p>
+      </div>
+
+      <div
+        class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
+        <img class="w-full object-cover" src="./images/punaise de lit.jpeg" title="punaise de lit" alt="Image 1">
+        <p class="text-center mt-2 font-semibold">Punaise de lit</p>
+      </div>
+
+      <div
+        class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
+        <img class="w-full object-cover" src="./images/image2.jpeg" alt="Image 2">
+        <p class="text-center mt-2 font-semibold">Image 2</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="relative flex justify-center">
+    <img class="w-full h-auto rounded-md max-h-64 object-cover" src="./images/nombre-rats-paris.jpg" alt="">
+    <div class="absolute inset-0 bg-purple-200 bg-opacity-50 flex items-center justify-center">
+      <h1 class="text-3xl font-semibold text-white text-center">
+        Dératisation familiale : votre tranquillité d’esprit, notre priorité.
+      </h1>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="bg-slate-50">
+    <div class="flex justify-center my-6">
+      <div
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-2xl font-bold mb-6">Pourquoi nous choisir ?</h1>
+        <p>
+          En tant qu'entreprise familiale, nous comprenons l'importance de protéger votre maison ou vos espaces de
+          travaille des nuisibles. Depuis plusieurs années, nous mettons à profit notre savoir-faire et notre passion
+          pour offrir des
+          solutions de dératisation efficaces et durables. Chaque intervention est réalisée avec soin et
+          professionnalisme, car votre satisfaction est notre priorité.
+        </p>
+      </div>
+
+      <div
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-2xl font-bold mb-6">Expérience</h1>
+        <p>
+          Avec plus de 5 ans d'expérience dans le domaine de la dératisation.
+          Nous avons développé des méthodes efficaces pour résoudre tous types de problème de nuisibles.
+          Que vous soyez confronté à des rats, des souris, ou d'autres infestations, nous avons la solution adaptée.
+        </p>
+      </div>
+
+      <div
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-2xl font-bold mb-6">Nos approche clientèle</h1>
+        <p>
+          Chaque situation est unique. Nous prenons le temps d'évaluer vos besoins spécifiques et de vous proposer des
+          solutions sur mesure. Que ce soit pour une maison, un restaurant ou un espace public, nous avons la solution
+          qu'il vous faut.
+        </p>
+      </div>
+
+      <div
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-2xl font-bold mb-6">Méthodes écologiques</h1>
+        <p>
+          Nous nous engageons à utiliser des méthodes respectueuses de l'environnement. Nos produits sont soigneusement
+          sélectionnés, et nous portons une attention particulière à chaque petit détail pour assurer la sécurité de
+          votre
+          famille, de vos clients et de vous-même, tout en garantissant une efficacité optimale.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="">
+    <h1>Contrat</h1>
+  </section>
+
+</body>
+
+</html>
