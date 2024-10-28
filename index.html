@@ -13,10 +13,9 @@
 
 <body>
 
-
   <nav class="fixed top-0 left-0 w-full border-b border-gray-200 bg-purple-500 text-white shadow-md z-50">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DN Père & Fils</span>
         <!-- image here maybe-->
       </a>
@@ -108,7 +107,7 @@
 
   <hr />
 
-  <section class="">
+  <section>
     <div class="flex justify-center my-6">
       <div
         class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
@@ -155,18 +154,23 @@
     </div>
   </section>
 
-  <section class="">
-    <h1 class="text-center text-2xl font-bold mt-6">Contrat</h1>
-    <p class="text-center">... à suivre (contact)</p>
+  <section>
+    <h1 class="text-center text-2xl font-bold mt-6">Ils nous ont fait confiance</h1>
+    <div class="grid grid-cols-7 m-6 justify-center items-center">
+      <img src="./images/contrat/Peniche.jpg" class="w-32">
+      <img src="./images/contrat/Brasserie des Arts Paris.png" class="w-32">
+      <img src="./images/contrat/K-CHIMAEK.png" class="w-32">
+      <img src="./images/contrat/Samourïce.png" class="w-32">
+      <img src="./images/contrat/Le Loft.png" class="w-32">
+      <img src="./images/contrat/barnacle.png" class="w-32">
+      <img src="./images/contrat/Immob Du Centre.png" class="w-32">
+    </div>
   </section>
-
-
-
 
   <div class="text-center my-6">
     <img class="mx-auto w-10" src="./images/courrier.png" alt="">
     <h1 class="font-bold text-4xl">
-      Nous <span class="text-purple-400">contactez</span>
+      Nous <span class="text-purple-400">contacter</span>
     </h1>
 
     <div class="w-16 h-1 bg-purple-300 mx-auto mt-4"></div>
@@ -178,7 +182,7 @@
         <img class="w-28 h-28" src="./images/telephone-portable.png" alt="">
         <h1 class="text-center text-purple-800 mt-4 text-lg font-semibold">Contactez-nous par téléphone</h1>
         <p class="text-center text-gray-700 mt-2">Rapide et efficace pour toute demande !</p>
-        <p class="text-center text-gray-700">+33</p>
+        <p class="text-center text-black font-bold">+33782932107</p>
       </div>
 
       <div class="h-36 border-l-2 border-white"></div>
@@ -188,13 +192,17 @@
         <img class="w-28 h-28" src="./images/courrier.png" alt="">
         <h1 class="text-center text-purple-800 mt-4 text-lg font-semibold">Contactez-nous par Mail</h1>
         <p class="text-center text-gray-700 mt-2">Nous vous recontacterons dans les meilleurs délais.</p>
-        <button type="button"
+        <p class="center font-bold text-black">dnperefils@gmail.com</p>
+        <a id="copyBtn" type="button"
           class="cursor-pointer mt-4 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:opacity-75">Cliquez
-          ici</button>
+          ici pour copier et ouvrir votre messagerie
+        </a>
       </div>
     </div>
   </section>
 
+  <script src="./js/script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-copyclip@1/copyclip.js"></script>
 
 </body>
 
