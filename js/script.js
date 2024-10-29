@@ -15,3 +15,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+$(function () {
+  $('nav a').on('click', function (e) {
+    e.preventDefault();
+    const targetId = $(this).attr('href');
+
+    if (targetId && $(targetId).length) {
+      const targetOffset = $(targetId).offset();
+
+      if (targetOffset) {
+        $('html, body').animate({
+          scrollTop: targetOffset.top
+        }, 1000);
+      }
+    }
+  });
+});
