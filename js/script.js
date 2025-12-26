@@ -1,4 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
+ 
+  const navbarToggle = document.querySelector('[data-collapse-toggle="navbar-default"]');
+  const navbarMenu = document.getElementById('navbar-default');
+
+  if (navbarToggle && navbarMenu) {
+    navbarToggle.addEventListener('click', () => {
+      const isExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
+      navbarToggle.setAttribute('aria-expanded', !isExpanded);
+      navbarMenu.classList.toggle('hidden');
+    });
+
+ 
+    const navLinks = navbarMenu.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth < 768) {
+          navbarMenu.classList.add('hidden');
+          navbarToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+  }
 
   document.getElementById('copyBtn')?.addEventListener('click', (e) => {
     e.preventDefault();

@@ -18,11 +18,11 @@
   <nav class="fixed top-0 left-0 w-full border-b border-gray-200 bg-custom text-white shadow-md z-50">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DN Père & Fils</span>
+        <span class="self-center text-lg md:text-2xl font-semibold whitespace-nowrap dark:text-white">DN Père & Fils</span>
         <!-- image here maybe-->
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300"
         aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -56,20 +56,20 @@
   </nav>
 
   <section id="home" class="relative h-screen flex items-center justify-center -mt-20 z-10">
-    <div class="absolute left-0 top-1/4 w-full transform -rotate-6 flex items-center justify-center">
-      <div class="text-white text-4xl font-bold bg-black py-2 px-6 border-dashed border-4 border-white rounded-lg">
+    <div class="absolute left-0 top-1/4 w-full transform -rotate-6 flex items-center justify-center px-4">
+      <div class="text-white text-2xl md:text-4xl font-bold bg-black py-2 px-4 md:px-6 border-dashed border-2 md:border-4 border-white rounded-lg">
         <p>DN Père & Fils</p>
       </div>
     </div>
 
-    <div class="flex justify-center">
-      <img class="rounded-full w-6/12 -z-10" src="./images/Mouse.png" alt="Image">
+    <div class="flex justify-center px-4 w-6/12">
+      <img class="rounded-full w-full max-w-xs md:max-w-md lg:w-6/12 -z-10" src="./images/Mouse.png" alt="Image">
     </div>
   </section>
 
   <section id="harmful" class="py-8 bg-slate-100 -mt-44 z-10">
-    <h1 class="text-center text-2xl font-bold mb-6 ">Nous intervenons sur une large gamme de nuisibles</h1>
-    <div class="grid grid-cols-4 gap-4 p-4">
+    <h1 class="text-center text-xl md:text-2xl font-bold mb-6 px-4">Nous intervenons sur une large gamme de nuisibles</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4">
 
       <div
         class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
@@ -105,9 +105,9 @@
 
   <section class="relative flex justify-center">
     <img class="w-full h-auto rounded-md max-h-64 object-cover" src="./images/nombre-rats-paris.jpg" alt="">
-    <div class="absolute inset-0 bg-purple-200 bg-opacity-50 flex items-center justify-center">
-      <h1 class="text-3xl font-semibold text-white text-center">
-        Dératisation familiale : votre tranquillité d’esprit, notre priorité.
+    <div class="absolute inset-0 bg-purple-200 bg-opacity-50 flex items-center justify-center px-4">
+      <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold text-white text-center">
+        Dératisation familiale : votre tranquillité d'esprit, notre priorité.
       </h1>
     </div>
   </section>
@@ -115,10 +115,10 @@
   <hr />
 
   <section>
-    <div class="flex justify-center my-6">
+    <div class="flex flex-wrap justify-center gap-6 my-6 px-4">
       <div
-        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
-        <h1 class="text-center text-2xl font-bold mb-6">Pourquoi nous choisir ?</h1>
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-xl md:text-2xl font-bold mb-6">Pourquoi nous choisir ?</h1>
         <p>
           En tant qu'entreprise familiale, nous comprenons l'importance de protéger votre maison ou vos espaces de
           travaille des nuisibles. Depuis plusieurs années, nous mettons à profit notre savoir-faire et notre passion
@@ -129,8 +129,8 @@
       </div>
 
       <div
-        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
-        <h1 class="text-center text-2xl font-bold mb-6">Expérience</h1>
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-xl md:text-2xl font-bold mb-6">Expérience</h1>
         <p>
           Avec plus de 5 ans d'expériences dans le domaine de la dératisation.
           Nous avons développé des méthodes efficaces pour résoudre tous types de problème de nuisibles.
@@ -139,8 +139,8 @@
       </div>
 
       <div
-        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
-        <h1 class="text-center text-2xl font-bold mb-6">Nos approche clientèle</h1>
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-xl md:text-2xl font-bold mb-6">Nos approche clientèle</h1>
         <p>
           Chaque situation est unique. Nous prenons le temps d'évaluer vos besoins spécifiques et de vous proposer des
           solutions sur mesure. Que ce soit pour une maison, un restaurant ou un espace public, nous avons la solution
@@ -149,8 +149,8 @@
       </div>
 
       <div
-        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 mr-6 p-6 bg-white border border-violet-400">
-        <h1 class="text-center text-2xl font-bold mb-6">Méthodes écologiques</h1>
+        class="max-w-md relative overflow-hidden rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105 p-6 bg-white border border-violet-400">
+        <h1 class="text-center text-xl md:text-2xl font-bold mb-6">Méthodes écologiques</h1>
         <p>
           Nous nous engageons à utiliser des méthodes respectueuses de l'environnement. Nos produits sont soigneusement
           sélectionnés, et nous portons une attention particulière à chaque petit détail pour assurer la sécurité de
@@ -162,21 +162,21 @@
   </section>
 
   <section id="contrat">
-    <h1 class="text-center text-2xl font-bold mt-6">Ils nous ont fait confiance</h1>
-    <div class="grid grid-cols-7 m-6 justify-center items-center">
-      <img src="./images/contrat/Peniche.jpg" class="w-32">
-      <img src="./images/contrat/Brasserie des Arts Paris.png" class="w-32">
-      <img src="./images/contrat/K-CHIMAEK.png" class="w-32">
-      <img src="./images/contrat/Samourïce.png" class="w-32">
-      <img src="./images/contrat/Le Loft.png" class="w-32">
-      <img src="./images/contrat/barnacle.png" class="w-32">
-      <img src="./images/contrat/Immob Du Centre.png" class="w-32">
+    <h1 class="text-center text-xl md:text-2xl font-bold mt-6 px-4">Ils nous ont fait confiance</h1>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 m-6 justify-center items-center px-4">
+      <img src="./images/contrat/Peniche.jpg" class="w-24 md:w-32 mx-auto">
+      <img src="./images/contrat/Brasserie des Arts Paris.png" class="w-24 md:w-32 mx-auto">
+      <img src="./images/contrat/K-CHIMAEK.png" class="w-24 md:w-32 mx-auto">
+      <img src="./images/contrat/Samourïce.png" class="w-24 md:w-32 mx-auto">
+      <img src="./images/contrat/Le Loft.png" class="w-24 md:w-32 mx-auto">
+      <img src="./images/contrat/barnacle.png" class="w-24 md:w-32 mx-auto">
+      <img src="./images/contrat/Immob Du Centre.png" class="w-24 md:w-32 mx-auto">
     </div>
   </section>
 
-  <div class="text-center my-6">
+  <div class="text-center my-6 px-4">
     <img class="mx-auto w-10" src="./images/courrier.png" alt="">
-    <h1 class="font-bold text-4xl">
+    <h1 class="font-bold text-2xl md:text-4xl">
       Nous <span class="text-purple-400">contacter</span>
     </h1>
 
@@ -184,24 +184,25 @@
   </div>
 
   <section id="contact" class="bg-purple-400 mt-2 py-8">
-    <div class="flex justify-center items-center my-6 space-x-12">
-      <div class="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg">
-        <img class="w-28 h-28" src="./images/telephone-portable.png" alt="">
-        <h1 class="text-center text-purple-800 mt-4 text-lg font-semibold">Contactez-nous par téléphone</h1>
-        <p class="text-center text-gray-700 mt-2">Rapide et efficace pour toute demande !</p>
-        <p class="text-center text-black font-bold">+33782932107</p>
+    <div class="flex flex-col md:flex-row justify-center items-center my-6 gap-8 md:space-x-12 px-4">
+      <div class="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg max-w-sm w-full">
+        <img class="w-20 h-20 md:w-28 md:h-28" src="./images/telephone-portable.png" alt="">
+        <h1 class="text-center text-purple-800 mt-4 text-base md:text-lg font-semibold">Contactez-nous par téléphone</h1>
+        <p class="text-center text-gray-700 mt-2 text-sm md:text-base">Rapide et efficace pour toute demande !</p>
+        <p class="text-center text-black font-bold text-sm md:text-base">+33782932107</p>
       </div>
 
-      <div class="h-36 border-l-2 border-white"></div>
+      <div class="hidden md:block h-36 border-l-2 border-white"></div>
+      <div class="md:hidden w-32 h-0.5 bg-white"></div>
 
       <div
-        class="transform hover:scale-105 transition-transform duration-300 ease-in-out px-4 flex flex-col items-center p-6 bg-white rounded-lg shadow-lg">
-        <img class="w-28 h-28" src="./images/courrier.png" alt="">
-        <h1 class="text-center text-purple-800 mt-4 text-lg font-semibold">Contactez-nous par Mail</h1>
-        <p class="text-center text-gray-700 mt-2">Nous vous recontacterons dans les meilleurs délais.</p>
-        <p class="center font-bold text-black">dnperefils@gmail.com</p>
+        class="transform hover:scale-105 transition-transform duration-300 ease-in-out px-4 flex flex-col items-center p-6 bg-white rounded-lg shadow-lg max-w-sm w-full">
+        <img class="w-20 h-20 md:w-28 md:h-28" src="./images/courrier.png" alt="">
+        <h1 class="text-center text-purple-800 mt-4 text-base md:text-lg font-semibold">Contactez-nous par Mail</h1>
+        <p class="text-center text-gray-700 mt-2 text-sm md:text-base">Nous vous recontacterons dans les meilleurs délais.</p>
+        <p class="text-center font-bold text-black text-sm md:text-base">dnperefils@gmail.com</p>
         <a id="copyBtn" type="button"
-          class="cursor-pointer mt-4 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:opacity-75">Cliquez
+          class="cursor-pointer mt-4 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-xs md:text-sm px-4 md:px-5 py-2 md:py-2.5 text-center hover:opacity-75">Cliquez
           ici pour copier et ouvrir votre messagerie
         </a>
       </div>
